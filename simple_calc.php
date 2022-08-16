@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title> Calculator </title>
-    
-</head>
-
-<body>
-      <p class="par"> Simple Calculator</p>
-      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-            <div class="div1">
-                  <input type="text" placeholder="First Number" autocomplete="off" name="n1">
-                  <input type="submit" value="+" name= "submit">
-                  <input type="submit" value="×" name= "submit"> 
-
-                  <br>
-
-                  <input type="text" placeholder="Second Number" autocomplete="off" name="n2">
-                  <input type="submit" value="-" name= "submit">
-                  <input type="submit" value="÷" name= "submit">
-
-            </div>
-      </form>
-</body>
-
-</html>
-
 <?php
+     include 'calculator.html';
      
      function division($a, $b){
             if (!$b){
