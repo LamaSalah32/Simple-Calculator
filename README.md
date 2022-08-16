@@ -1,4 +1,5 @@
 # Simple calculator using php
 
-https://user-images.githubusercontent.com/68350433/184256335-fe784820-3795-4010-afbf-21d6b52af564.mp4
+
+https://user-images.githubusercontent.com/68350433/184854518-27986e27-a2ef-4d38-83fc-e06304c67a14.mp4
 
